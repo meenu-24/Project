@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262548;
+}
+.card {
+  margin-top: 50px;
+  padding: 20px;
+  height: 500px;
+  width: 290px;
+  border-radius: 20px;
+  background-color: #322e59;
+  border: 1px;
+  box-shadow: -30px -30px 1px -3px rgb(35, 32, 68);
+}
+.text {
+  margin: 20px;
+  display: flex;
+  gap: 100px;
+}
+.text h3 {
+  color: #bcbacf;
+  font-size: 30px;
+  font-weight: 600;
+}
+.text i {
+  font-size: 30px;
+  font-weight: 600;
+  color: #bcbacf;
+}
+li {
+  margin: 5px 5px 5px 20px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+  color: #bcbacf;
+}
+
+.btn {
+  margin: 20px 0 0 25px;
+  height: 50px;
+  width: 200px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #ebb96e;
+  color: #262548;
+}
+.option-btn {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  color: #bcbacf;
+}
+.search-area {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.search-area .search-text {
+  padding-left: 2.23rem;
+  height: 40px;
+  background-color: #262548;
+  border: none;
+  border-radius: 5px;
+}
+.search-area .search-btn {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.3rem;
+  height: 2.325rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  border: none;
+  background-color: #262548;
+  border-radius: 5px;
+}
+
+.rbtn {
+  display: flex;
+  gap: 5px;
+}
+.rbtn .rbtns {
+  margin-bottom: 10px;
+  height: 25px;
+  width: 30px;
+}

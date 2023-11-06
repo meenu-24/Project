@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(238, 242, 249);
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  width: 600px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-radius: 20px;
+}
+.container-area {
+  padding: 20px;
+}
+.image-content {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.btn {
+  font-size: 15px;
+  height: 30px;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgb(25, 24, 71);
+}
+.btn-add {
+  margin-top: 30px;
+  height: 60px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(71, 135, 233);
+  color: white;
+  border: rgb(71, 135, 233);
+  font-size: 20px;
+}
+.btn-area {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+.btn-cart{
+    height: 50px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    font-size: 18px;
+}
+.heading {
+  margin-top: 5px;
+  color: rgb(25, 24, 71);
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.price-area {
+  font-size: 18px;
+  font-weight: 200;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112,234,190);
+    border-radius: 50%;
+    display: inline-block;
+  }
